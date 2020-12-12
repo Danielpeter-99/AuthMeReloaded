@@ -36,17 +36,21 @@ commands:
     usage: /register [password] [verifyPassword]
     aliases:
     - reg
+    - registrar
   unregister:
     description: Unregister an account
     usage: /unregister <password>
     aliases:
     - unreg
+    - desregistrar
+    - apagarconta
   changepassword:
     description: Change password of an account
     usage: /changepassword <oldPassword> <newPassword>
     aliases:
     - changepass
     - cp
+    - mudarsenha
   totp:
     description: TOTP commands
     usage: /totp code|add|confirm|remove
